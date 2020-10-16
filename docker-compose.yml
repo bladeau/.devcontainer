@@ -1,0 +1,5 @@
+services:
+  ui:
+    network_mode: service:db
+  app:
+    network_mode: service:db
